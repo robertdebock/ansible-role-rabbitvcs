@@ -14,7 +14,7 @@ This example is taken from `molecule/resources/converge.yml` and is tested on ea
 - name: converge
   hosts: all
   become: yes
-  gather_facts: yes
+  gather_facts: no
 
   roles:
     - role: robertdebock.rabbitvcs
@@ -46,6 +46,7 @@ The following roles are used to prepare a system. You may choose to prepare your
 | Requirement | GitHub | GitLab |
 |-------------|--------|--------|
 |[robertdebock.bootstrap](https://galaxy.ansible.com/robertdebock/bootstrap)|[![Build Status GitHub](https://github.com/robertdebock/ansible-role-bootstrap/workflows/Ansible%20Molecule/badge.svg)](https://github.com/robertdebock/ansible-role-bootstrap/actions)|[![Build Status GitLab ](https://gitlab.com/robertdebock/ansible-role-bootstrap/badges/master/pipeline.svg)](https://gitlab.com/robertdebock/ansible-role-bootstrap)|
+|[robertdebock.ca_certificates](https://galaxy.ansible.com/robertdebock/ca_certificates)|[![Build Status GitHub](https://github.com/robertdebock/ansible-role-ca_certificates/workflows/Ansible%20Molecule/badge.svg)](https://github.com/robertdebock/ansible-role-ca_certificates/actions)|[![Build Status GitLab ](https://gitlab.com/robertdebock/ansible-role-ca_certificates/badges/master/pipeline.svg)](https://gitlab.com/robertdebock/ansible-role-ca_certificates)|
 
 ## [Context](#context)
 
