@@ -14,7 +14,7 @@ This example is taken from `molecule/resources/converge.yml` and is tested on ea
 - name: converge
   hosts: all
   become: yes
-  gather_facts: no
+  gather_facts: yes
 
   roles:
     - role: robertdebock.rabbitvcs
