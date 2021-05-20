@@ -1,6 +1,0 @@
----
-# handlers file for rabbitvcs
-
-- name: apt-get update
-  apt:
-    update_cache: yes
