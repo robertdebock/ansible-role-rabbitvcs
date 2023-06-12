@@ -5,4 +5,4 @@
 repository:
   description: Install and configure rabbitvcs on your system.
   homepage: https://robertdebock.nl/
-  topics: rabbitvcs, ansible, molecule, tox, playbook
+  topics: rabbitvcs, development, ansible, molecule, tox, playbook
