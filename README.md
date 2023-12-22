@@ -1,5 +1,7 @@
 # [Ansible role rabbitvcs](#rabbitvcs)
 
+> THIS ROLE HAS BEEN ARCHIVED AS OF DEC 2023.
+
 Install and configure rabbitvcs on your system.
 
 |GitHub|GitLab|Downloads|Version|
